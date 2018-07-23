@@ -1,8 +1,8 @@
 /*
 * @Author: Sing-V
 * @Date:   2018-05-20 07:53:35
-* @Last Modified by:   dapang
-* @Last Modified time: 2018-07-22 16:01:05
+* @Last Modified by:   zhangbufeng
+* @Last Modified time: 2018-07-23 23:53:16
 */
 *{
 	margin: 0;
@@ -421,6 +421,7 @@ body{
 	position: absolute;
 	top: 0;
 	left: 0;
+	z-index: 5;
 }
 .bigBox .banner .aside{
 	width: 190px;
