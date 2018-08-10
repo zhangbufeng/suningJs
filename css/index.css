@@ -356,7 +356,7 @@ body{
 .background{
 	width: auto;
 	height: 440px;
-	background-color: #FEBDC5;
+	background-color: #256AE3;
 }
 .bigBox .banner{
 	width: 1190px;
@@ -383,6 +383,7 @@ body{
 	top: 4px;
 	opacity: 0.8;
 	background-color: white;
+	z-index: 10;
 }
 .bigBox .banner .warper .box2{
 	width: 150px;
@@ -392,6 +393,7 @@ body{
 	top: 221px;
 	opacity: 0.8;
 	background-color: white;
+	z-index: 10;
 }
 .bigBox .banner .warper .box1 a , .bigBox .banner .warper .box2 a{
 	display: block;
@@ -444,12 +446,12 @@ body{
 .bigBox .banner .aside .in .cha .asideBox{
 	width: 1001px;
 	height: 440px;
-	background-color: green;
 	position: absolute;
+	background-color: #fff;
 	top: 0;
 	left: 190px;
 	display: none; 
-	z-index: 3;
+	z-index: 12;
 }
 .bigBox .banner .aside .in .cha:first-child .asideBox{
 	background-color: #fff;
@@ -471,7 +473,8 @@ body{
     line-height: 24px;
     text-align: center;
     background: #F90;
-    font-family: "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+	font-family: "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+	transform: all 0.3s;
 }
 .bigBox .banner .aside .in .cha .asideBox ._list{
 	width: 780px;
@@ -608,6 +611,7 @@ body{
 	left: 190px;
 	bottom: 0;
 	margin: auto 0;
+	z-index: 11;
 }
 .bigBox .banner:hover .prev{
 	background-position: -83px 0;
@@ -628,6 +632,7 @@ body{
 	right: 170px;
 	bottom: 0;
 	margin: auto 0;
+	z-index: 11;
 }
 .bigBox .banner:hover .next{
 	background-position: -123px 0;
@@ -645,6 +650,7 @@ body{
 	right: 488px;
 	bottom: 20px;
 	box-sizing: border-box;
+	z-index: 11;
 }
 .bigBox .banner .btns .son a{
 	width: 16px;
